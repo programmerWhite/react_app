@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import HomeHead from './home/home';
 import MySkill from './home/mySkill';
 import HelpYou from './home/helpYou';
+import MyExperience from './home/myExperience';
+import MyBlog from './home/myBlog';
 
 import "./App.css";
 
@@ -19,6 +21,9 @@ class App extends Component {
 
             <HelpYou />
 
+            <MyExperience />
+
+            <MyBlog/>
         </div>
     );
   }
