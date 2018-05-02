@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import "./myLive.css";
-import "../icon/demo.css";
+import "../../icon/demo.css";
 
 class PhotoOne extends Component {
     constructor(props){
@@ -14,7 +14,7 @@ class PhotoOne extends Component {
     render(){
         return (
             <div className="photo-one-div" onClick={(e)=>{this.props.backF(e)}} img-key={this.index} key={this.props.imgData.key}>
-                <img src={require(""+this.imgUrl)} />
+                <img src={require(""+this.imgUrl)} alt={this.imgText} />
                 <div className="hover-shade-div" img-key={this.index}>
                     {
                         this.imgText?
@@ -163,7 +163,7 @@ class MyLive extends Component{
                     <div className="big-img-div" onClick={this.defaultF.bind(this)}>
                         <div className="left-arrow-div icon iconfont icon-return" onClick={this.leftClick.bind(this)}></div>
                         <div className="big-img-inner-div">
-                            <img src={this.state.imgUrl?require(""+this.state.imgUrl):""} />
+                            <img src={this.state.imgUrl?require(""+this.state.imgUrl):""} alt="预览大图"/>
                         </div>
                         <div className="right-arrow-div icon iconfont icon-enter" onClick={this.rightClick.bind(this)}></div>
                     </div>

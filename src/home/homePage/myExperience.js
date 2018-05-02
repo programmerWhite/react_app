@@ -31,7 +31,7 @@ class MyExperience extends Component{
         return(
             <div className="myExperienceDiv">
                 <div className="experienceImgDiv">
-                    <img src={require('./img/exp.jpg')}/>
+                    <img src={require('../img/exp.jpg')} alt="experience"/>
                 </div>
                 <div className="myExperienceDescContent">
                     <div className="myExperienceHead">

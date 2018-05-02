@@ -1,41 +1,30 @@
 import React, { Component } from 'react';
-import './home.css';
+import HomeHead from './homePage/home';
+import MySkill from './homePage/mySkill';
+import HelpYou from './homePage/helpYou';
+import MyExperience from './homePage/myExperience';
+import MyBlog from './homePage/myBlog';
+import MyLive from './homePage/myLive';
+import Foot from '../foot/foot';
 
 
-
-class homeHead extends Component{
-    render(){
-        return(
-            <div className="homeContainerDiv">
-                <div className="myName">吴 <span>WU YUN</span></div>
-                <div className="menuContainerDiv">
-                    <div className="menuLeftPart">
-                        <div className="menuText">
-                            <a href="#">我</a>
-                        </div>
-                        <div className="menuText">
-                            <a href="#">项目</a>
-                        </div>
-                        <div className="menuText">
-                            <a href="#">教育</a>
-                        </div>
-                    </div>
-                    <div className="myPhoto">
-                        <img src={require('./img/myPhoto.png')} />
-                    </div>
-                    <div className="menuRightPart">
-                        <div className="menuText">
-                            <a href="#">博文</a>
-                        </div>
-                        <div className="menuText">
-                            <a href="#">联系我</a>
-                        </div>
-                    </div>
-                </div>
+class Home extends Component {
+    render() {
+        return (
+            <div>
+                <HomeHead/>
+                <p className="myDesc">
+                    我是 wu yun ，26岁。<br/> 一名来自中国成都的前端。
+                </p>
+                <MySkill/>
+                <HelpYou/>
+                <MyExperience/>
+                <MyBlog/>
+                <MyLive/>
+                <Foot/>
             </div>
         );
     }
 }
 
-
-export default homeHead;
+export default Home;

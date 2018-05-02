@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import '../icon/iconfont.css';
+import '../../icon/iconfont.css';
 import './helpYou.css';
 
 class HelpYouTitle extends  Component{
@@ -16,10 +16,6 @@ class HelpYouTitle extends  Component{
     }
 }
 class HelpOne extends  Component{
-    constructor(props){
-        super(props);
-    }
-
     render(){
         return (
             <div className="helpTitleOneContent">

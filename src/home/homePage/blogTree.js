@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
-import "../icon/demo.css";
+import "../../icon/demo.css";
 import "./blogTree.css";
 
 class BlogTree extends Component{
-    constructor(props){
-        super(props);
-    }
+
     render(){
         return(
             <div className="blogTreeDiv">
                 {
-                    this.props.index % 2 == 0?(
+                    this.props.index % 2 === 0?(
                         <div className="blogInnerDiv">
                            <div className="blogTextContent">
                                <div className="blogOneTitle">{this.props.data.title}</div>

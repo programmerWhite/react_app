@@ -3,9 +3,6 @@ import React ,{Component} from 'react';
 import './experienceLabel.css';
 
 class ExperienceLabel extends Component{
-    constructor(props){
-        super(props);
-    }
 
     render(){
         return(

@@ -1,36 +1,18 @@
 import React, { Component } from 'react';
-import HomeHead from './home/home';
-import MySkill from './home/mySkill';
-import HelpYou from './home/helpYou';
-import MyExperience from './home/myExperience';
-import MyBlog from './home/myBlog';
-import MyLive from './home/myLive';
-import Foot from './foot/foot';
+import {Router, Route, BrowserRouter } from 'react-router';
+
+import Home from './home/home';
 
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
-        <div>
-            <HomeHead />
-
-            <p className="myDesc">
-                我是 wu yun ，26岁。<br/> 一名来自中国成都的前端。
-            </p>
-
-            <MySkill />
-
-            <HelpYou />
-
-            <MyExperience />
-
-            <MyBlog/>
-
-            <MyLive/>
-
-            <Foot/>
-        </div>
+        <BrowserRouter>
+            <div>
+                <Route  path="/" component={Home}/>
+            </div>
+        </BrowserRouter>
     );
   }
 }
