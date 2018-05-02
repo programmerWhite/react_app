@@ -5,7 +5,6 @@ import "./blogTree.css";
 class BlogTree extends Component{
     constructor(props){
         super(props);
-        console.log(this.props.index)
     }
     render(){
         return(

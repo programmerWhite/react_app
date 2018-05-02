@@ -31,8 +31,14 @@ class mySkill extends Component{
         return (
             <div className="mySkillDiv">
                 <div className="skillContent">
-                    <h2>My Skills & Abilities</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five</p>
+                    <div className="skill-head-div">
+                        <h2>个人能力<sub>My Skills & Abilities</sub></h2>
+                        <p>
+                            人在看待别人的时候首先要学会看待自我，吾日三省吾身，时刻不能停下自己的脚步。
+                            因为在你前方的路学习的东西还很多，
+                            活到老学到老。
+                        </p>
+                    </div>
                     <div className="skillBarContent">
                         <SkillProgress bgC="#e07702" lengthV="90%" textV="html & css - 3+ years Experience"/>
                         <SkillProgress bgC="#9cd4e0" lengthV="70%" textV="Javascript - 3+ Years Experience"/>

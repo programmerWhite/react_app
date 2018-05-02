@@ -31,7 +31,7 @@ class MyBlog extends Component{
                 <div className="myBlogContentDiv">
                     {
                         this.data.map((data,index)=>{
-                            return (<BlogTree data={data} index={index}/>);
+                            return (<BlogTree key={index} data={data} index={index}/>);
                         })
                     }
                 </div>

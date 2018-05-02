@@ -31,3 +31,16 @@
     font-weight: 100;
     line-height: 26px;
 }
+.skill-head-div h2{
+    font-size: 30px;
+
+}
+.skill-head-div sub{
+    margin-left: 10px;
+    font-size: 16px
+;
+}
+.skill-head-div p{
+    font-size: 16px;
+    margin: 20px 0;
+}

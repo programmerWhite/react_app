@@ -76,8 +76,8 @@ class helpPart extends Component{
                 <HelpYouTitle />
                 <div className="helpOneContainer">
                     {
-                        helpOneData().map((dataOne)=>{
-                            return <HelpOne data={dataOne} />
+                        helpOneData().map((dataOne,index)=>{
+                            return <HelpOne key={index} data={dataOne} />
                         })
                     }
                 </div>

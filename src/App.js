@@ -4,6 +4,8 @@ import MySkill from './home/mySkill';
 import HelpYou from './home/helpYou';
 import MyExperience from './home/myExperience';
 import MyBlog from './home/myBlog';
+import MyLive from './home/myLive';
+import Foot from './foot/foot';
 
 import "./App.css";
 
@@ -24,6 +26,10 @@ class App extends Component {
             <MyExperience />
 
             <MyBlog/>
+
+            <MyLive/>
+
+            <Foot/>
         </div>
     );
   }

@@ -41,8 +41,8 @@ class MyExperience extends Component{
                     <div className="experience-content-div">
                         <div className="experienceContentInner">
                             {
-                                this.experienceLabelData.map((data)=>{
-                                    return (<ExperienceLabel data = {data} />);
+                                this.experienceLabelData.map((data,index)=>{
+                                    return (<ExperienceLabel data = {data} key={index} />);
                                 })
                             }
                         </div>
