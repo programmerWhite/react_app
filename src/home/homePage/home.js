@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import link  from 'react-router';
+import { Link } from 'react-router-dom';
 
 import './home.css';
 
@@ -11,13 +11,13 @@ class homeHead extends Component{
                 <div className="menuContainerDiv">
                     <div className="menuLeftPart">
                         <div className="menuText">
-                            <link to="/">我</link>
+                            <Link to="/">我</Link>
                         </div>
                         <div className="menuText">
-                            <link to="/">项目</link>
+                            <Link to="/">项目</Link>
                         </div>
                         <div className="menuText">
-                            <link to="/">教育</link>
+                            <Link to="/">教育</Link>
                         </div>
                     </div>
                     <div className="myPhoto">
@@ -25,10 +25,10 @@ class homeHead extends Component{
                     </div>
                     <div className="menuRightPart">
                         <div className="menuText">
-                            <link to="/">博文</link>
+                            <Link to="/">博文</Link>
                         </div>
                         <div className="menuText">
-                            <link to="/">联系我</link>
+                            <Link to="/">联系我</Link>
                         </div>
                     </div>
                 </div>

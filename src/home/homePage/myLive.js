@@ -35,56 +35,12 @@ class MyLive extends Component{
         this.state = {
             imgData: [
                 {
-                    imgUrl: "./img/liveImg/1.jpg",
+                    imgUrl: "../../img/liveImg/1.jpg",
                     imgText: "甜甜的草莓，很好吃的哦"
-                },
-                {
-                    imgUrl: "./img/liveImg/2.jpg",
-                    imgText: ""
-                },
-                {
-                    imgUrl: "./img/liveImg/3.jpg",
-                    imgText: ""
-                },
-                {
-                    imgUrl: "./img/liveImg/4.jpg",
-                    imgText: ""
-                },
-                {
-                    imgUrl: "./img/liveImg/5.jpg",
-                    imgText: ""
-                },
-                {
-                    imgUrl: "./img/liveImg/6.jpg",
-                    imgText: ""
-                },
-                {
-                    imgUrl: "./img/liveImg/7.jpg",
-                    imgText: ""
-                },
-                {
-                    imgUrl: "./img/liveImg/8.jpg",
-                    imgText: ""
-                },
-                {
-                    imgUrl: "./img/liveImg/9.jpg",
-                    imgText: ""
-                },
-                {
-                    imgUrl: "./img/liveImg/10.jpg",
-                    imgText: ""
-                },
-                {
-                    imgUrl: "./img/liveImg/11.jpg",
-                    imgText: ""
-                },
-                {
-                    imgUrl: "./img/liveImg/12.jpg",
-                    imgText: ""
                 }
             ],
             bigImgStatus:false,
-            imgUrl:"./img/liveImg/1.jpg",
+            imgUrl:"",
             currentIndex:0
         };
 
